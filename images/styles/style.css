@@ -157,3 +157,12 @@ section h1 {
     text-transform: uppercase;
     border: none;
 }
+
+/* card section start */
+.card-image-container{
+    margin: 340px 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
