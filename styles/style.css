@@ -252,9 +252,87 @@ element.style {
     border-radius: 44px;
     border: 1px solid white;
 }
+.footer{
+    background: #0B0223;
+    padding:  40px 0px;
+}
 .team-box:hover {
    
 
     border: 1px solid pink;
     
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list-icon{
+    text-align: center;
+}
+.list-group{
+    display: flex;
+    justify-content: center;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-content span{
+    color: #F948B2;
+}
+
+.list h4 {
+    color: white;
+    margin-left: 24px;
+    font-weight: 500;
+}
+.list-icon {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+}
+
+.list-group h4 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 14px;
+}
+.footer-content h3 {
+    font-size: 44px;
+    color: white;
+}
+.footer-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-box{
+    position: relative;
+}
+.content-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -244px;
+    visibility: hidden;
+    opacity: 0;
+}
+.content-hover .fa-solid {
+    color: white;
+    font-size: 31px;
+}
+.content-hover h4 {
+    color: red;
+    font-size: 33px;
+}
+.card-box:hover .content-hover{
+    visibility: visible;
+    opacity: 1;
 }
