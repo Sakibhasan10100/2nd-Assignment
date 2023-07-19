@@ -46,11 +46,12 @@ nav {
     font-weight: 700;
     margin-left: -247px;
 }
-.ul-item{
+
+.ul-item {
     display: flex;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
 
 }
@@ -103,6 +104,7 @@ section h1 {
     line-height: normal;
     text-transform: uppercase;
     padding-top: 5px;
+    
 
 }
 
@@ -111,7 +113,23 @@ section h1 {
     margin-left: 90px;
     justify-content: space-around;
     margin-top: 150px;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
 
+}
+.funny-videos-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 5px;
+    
 }
 
 .banner-image {
@@ -159,10 +177,46 @@ section h1 {
 }
 
 /* card section start */
-.card-image-container{
+/* .card-image-container {
     margin: 340px 400px;
     align-items: center;
     display: flex;
     justify-content: center;
     gap: 1.6rem;
+} */
+
+    .card-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+    }
+
+.card-top-content h2{
+    align-items: center;
+    justify-content: center;
+}
+.card-box{
+    
+        margin-left: 34px;
+ }
+ .card-content{
+    align-items: center;
+ }
+
+ /* 2nd banner */
+
+ .second-banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+ }
+ element.style {
+    text-align: end;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: center;
+}
+element.style {
+    margin-right: -90px;
 }
