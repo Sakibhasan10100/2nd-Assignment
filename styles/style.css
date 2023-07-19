@@ -14,78 +14,66 @@
 
 /* nav related work */
 
-header {
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+a.bannar-btn {
+    background: rgba(11, 2, 35, 0.10);
+    padding: 11px;
+    border-radius: 8px;
 }
-
-.logo-icon {
-    margin: 46px 256px;
-}
-
-.nav-bar-gamer-title {
-    display: flex;
-}
-
-nav {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-}
-
-
-.pink-color-g {
-    color: rgb(255, 0, 85);
-}
-
-.nav-title {
-    color: #0B0223;
-    font-family: Work Sans;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: -247px;
-}
-
-.ul-item {
-    display: flex;
-}
-
-nav>ul {
-    display: flex;
-
-}
-
-nav li {
+.header-right ul{
     list-style: none;
-    margin-right: 32px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
+
+}
+.header-left span{
+    color: #F948B2;
+}
+.header-right .fa-brands{
+    color: red;
+}
+.header-left h3 {
+    font-size: 34px;
+}
+.header-right .fa-tiktok{
+    color:black ;
 }
 
-nav li a {
+.header-right ul li a {
     text-decoration: none;
-    color: #3C354F;
+    text-transform: capitalize;
+    margin-left: 14px;
+    color: #3c354f;
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    padding: 13px;
+    align-items: center;
+
+}
+.header-right ul{
+    display: flex;
+    align-items: center;
+
+}
+.header-left img {
+    width: 81px;
+    height: 44px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 22px;
 }
 
-nav h3 {
-    margin-left: 346px;
-    margin-top: 38px;
-}
 
-.btn-follow-us {
-    color: #3C354F;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    background-color: ;
-    width: 262px;
-    height: 56px;
-    background: rgba(11, 2, 35, 0.10) margin: 37px 240px text-align: center;
-}
+
+
+
+
+
 
 /* Banner section start */
 section h2 {
@@ -185,17 +173,24 @@ section h1 {
     gap: 1.6rem;
 } */
 
-    .card-main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap:5px;
-    }
-
-.card-top-content h2{
+.card-main {
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+    text-align: center;
 }
+.card-box img {
+    width: 347px;
+    height: 400px;
+}
+
+    .card-top-content h2 {
+        text-align: center;
+    }
+    .card-top-content p {
+        text-align: center;
+    }
 .card-box{
     
         margin-left: 34px;
@@ -206,11 +201,12 @@ section h1 {
 
  /* 2nd banner */
 
- .second-banner{
+ .second-banner {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
- }
+    align-items: center;
+    margin-top: 103px;
+}
  element.style {
     text-align: end;
     align-items: center;
@@ -219,4 +215,46 @@ section h1 {
 }
 element.style {
     margin-right: -90px;
+}
+.card-inner {
+    position: relative;
+    top: -192px;
+    right: 152px;
+}
+.card-inner img{
+    width: 318px;
+    height: 344px;
+}
+.second-banner  image {
+    width: 441px;
+    height: 536px;
+}
+.team-main{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr );
+}
+.team{
+    padding: 20px 90px;
+
+}
+.team-box {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    padding: 11px;
+    border-radius: 44px;
+    border: 1px solid white;
+}
+.team-box:hover {
+   
+
+    border: 1px solid pink;
+    
 }
