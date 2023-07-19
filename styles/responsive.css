@@ -1,0 +1,7 @@
+/* responsive mobile device */
+@media screen and (max-width:576px) {
+    .header, .banner, .card {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
